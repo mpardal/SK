@@ -1,0 +1,25 @@
+{
+  "name": "html_css",
+  "version": "1.0.0",
+  "description": "Mon Site #le 19 Mai à 15h13 injection fichier HTML sans média en commit",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "tailwindcss -i input.css -o dist/output.css --watch"
+    "start": "tailwindcss -i input.css -o dist/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpardal/SK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpardal/SK/issues"
+  },
+  "homepage": "https://github.com/mpardal/SK#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
